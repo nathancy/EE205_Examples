@@ -228,7 +228,7 @@ int main(){
     StudioFilm OfflineTV("JOASTisNotAMeme", 0, 10, JOAST_production_cast, "Offline TV");
 
     // Print all movies that have feature the user's favorite actor
-    Recommended_Movies(selectedMovies, toast); 
+    Recommended_Movies(selectedMovies, toastUser); 
     cout << endl;
 
     // Print studio or all contributors depending on the pointer given
