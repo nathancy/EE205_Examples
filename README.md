@@ -9,6 +9,11 @@ Listed below are the functions of a VCS:
 
 Git allows groups of people to work on the same documents (often code) at the same time, and without stepping on each other's toes. It's a distributed version control system.
 
+To clone a remote repository
+```
+git clone <repo-link>
+```
+
 To check what branch you're on:
 ```
 git branch
